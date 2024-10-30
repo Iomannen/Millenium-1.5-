@@ -186,11 +186,11 @@ display: none;
      transition: 0.7s;
      height: 852px;
      display: flex;
-     width: 800px;
+     width: 750px;
      flex-wrap: wrap;
      row-gap: 54px;
      column-gap: 20px;
-     padding: 0 20px;
+     padding: 0 10px;
      padding-bottom: 30px;
      justify-content: space-between;
   }
@@ -249,11 +249,11 @@ display: none;
      overflow-y:hidden;
      height: 358px;
      display: flex;
-     width: 800px;
+     width: 750px;
      flex-wrap: wrap;
      row-gap: 54px;
      column-gap: 20px;
-     padding: 0 20px;
+     padding: 0 10px;
      transition: 0.7s;
 }
 }

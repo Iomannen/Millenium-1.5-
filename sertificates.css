@@ -1,3 +1,96 @@
+
+    .sertificates {
+        padding-top: 150px;
+        justify-self: center;
+        width: 100%;
+        }
+        .sertificates__background {
+        display: flex;
+        height: 731px;
+        background-color: rgb(240, 213, 119);
+        border-radius: 10px;
+        padding: 26px 10px;
+        padding-bottom: 0px;
+        justify-content: center;
+        }
+        
+        .sertificates__inner {
+            width: 98%;
+            height: 95%;
+            display:flex;
+            flex-direction: column;
+            border: 2px white solid;
+            border-radius: 10px;
+            column-gap: 10%;
+            
+            justify-content: space-around;
+        }
+        .award {
+            display: flex;
+            align-self: center;
+        }
+        .award__image {
+            width:99px;
+        }
+        .first-sertificate {
+            display: flex;
+            flex-direction: column;
+        
+            align-items: center;
+            gap: 5px;
+            width: 320px;
+        }
+        .first-sertificate__image {
+            width: 280px;
+        }
+        .second-sertificate__image {
+            width: 280px;
+        }
+        .sertificates {
+            font-family: "Montserrat";
+            font-weight: 700;
+            font-size: 12px;
+        }
+        .certificate {
+            color: rgb(159, 159, 159);
+        }
+        
+        .certificate-name {
+            width: 200px;
+            text-align: center;
+        }
+        .second-sertificate {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            width: 320px
+        }
+        .swiper2 {
+            height:600px;
+            width: 280px;
+        }
+        .sertificates .swiper {
+            width:280px;
+            height: 495px;
+          }
+          .sertificates .swiper-slide-active {
+            width: 280px !important;
+          }
+          .sertificates .swiper .swiper-initialized .swiper-horizontal .swiper-backface-hidden {
+            width: 280px !important;
+          }
+          /* ОКНО СВАЙПЕРА */
+          .sertificate-slide { 
+             /* ГОООООООООООЛ ? */
+            box-sizing: border-box;
+            padding-top: 10px;
+         width: 100%;
+         overflow: hidden;
+          /* ГОООООООООООЛ ? */
+          }
+
+@media(min-width: 470px) {
 .sertificates {
     padding-top: 150px;
     justify-self: center;
@@ -88,7 +181,7 @@
      overflow: hidden;
       /* ГОООООООООООЛ ? */
       }
-    
+}
 
 @media(min-width: 768px) {
 .sertificates {
@@ -265,3 +358,4 @@ display: flex;
     height: 438px;
 }
 }
+

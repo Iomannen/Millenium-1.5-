@@ -69,17 +69,17 @@
         }
         .swiper2 {
             height:600px;
-            width: 280px;
+            width: 320px;
         }
         .sertificates .swiper {
-            width:280px;
+            width:320px;
             height: 495px;
           }
           .sertificates .swiper-slide-active {
-            width: 280px !important;
+            width: 320px !important;
           }
           .sertificates .swiper .swiper-initialized .swiper-horizontal .swiper-backface-hidden {
-            width: 280px !important;
+            width: 320px !important;
           }
           /* ОКНО СВАЙПЕРА */
           .sertificate-slide { 

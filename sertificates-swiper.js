@@ -8,7 +8,7 @@ let swiper = new Swiper('.swiper', {
   
     // If we need pagination
     pagination: {
-      el: '.swiper-pagination',
+      el: '.sertificate-pagination',
       type: 'bullets',
       clickable: true,
     },

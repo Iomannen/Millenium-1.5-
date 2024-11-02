@@ -1,0 +1,267 @@
+.sertificates {
+    padding-top: 150px;
+    justify-self: center;
+    width: 100%;
+    }
+    .sertificates__background {
+    display: flex;
+    height: 731px;
+    background-color: rgb(240, 213, 119);
+    border-radius: 10px;
+    padding: 26px 10px;
+    padding-bottom: 0px;
+    justify-content: center;
+    }
+    
+    .sertificates__inner {
+        width: 98%;
+        height: 95%;
+        display:flex;
+        flex-direction: column;
+        border: 2px white solid;
+        border-radius: 10px;
+        column-gap: 10%;
+        
+        justify-content: space-around;
+    }
+    .award {
+        display: flex;
+        align-self: center;
+    }
+    .award__image {
+        width:99px;
+    }
+    .first-sertificate {
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+        gap: 5px;
+        width: 429px;
+    }
+    .first-sertificate__image {
+        width: 280px;
+    }
+    .second-sertificate__image {
+        width: 280px;
+    }
+    .sertificates {
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .certificate {
+        color: rgb(159, 159, 159);
+    }
+    
+    .certificate-name {
+        width: 200px;
+        text-align: center;
+    }
+    .second-sertificate {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        width: 429px
+    }
+    .swiper2 {
+        height:600px;
+        width: 629px;
+    }
+    .sertificates .swiper {
+        width:429px;
+        height: 495px;
+      }
+      .sertificates .swiper-slide-active {
+        width: 395px !important;
+      }
+      .sertificates .swiper .swiper-initialized .swiper-horizontal .swiper-backface-hidden {
+        width: 395px !important;
+      }
+      /* ОКНО СВАЙПЕРА */
+      .sertificate-slide { 
+         /* ГОООООООООООЛ ? */
+        box-sizing: border-box;
+        padding-top: 10px;
+     width: 100%;
+     overflow: hidden;
+      /* ГОООООООООООЛ ? */
+      }
+    
+
+@media(min-width: 768px) {
+.sertificates {
+    padding-top: 150px;
+    justify-self: center;
+    width: 100%;
+    }
+    .sertificates__background {
+    display: flex;
+    height: 1100px;
+    background-color: rgb(240, 213, 119);
+    border-radius: 10px;
+    padding: 26px 10px;
+    justify-content: center;
+    }
+    
+    .sertificates__inner {
+        width: 98%;
+        height: 95%;
+        display:flex;
+        flex-direction: column;
+        border: 2px white solid;
+        border-radius: 10px;
+        column-gap: 10%;
+        justify-self: center;
+        gap:20px;
+    }
+    .award {
+        display: flex;
+        align-self: center;
+    }
+    .award__image {
+        width:185px;
+    }
+    .first-sertificate {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 5px;
+    }
+    .first-sertificate__image {
+        width: 429px;
+    }
+    .second-sertificate__image {
+        width: 429px;
+    }
+    .sertificates {
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .certificate {
+        color: rgb(159, 159, 159);
+    }
+    
+    .certificate-name {
+        width: 200px;
+        text-align: center;
+    }
+    .second-sertificate {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+       width: 100%;
+    }
+    .swiper2 {
+        height:600px;
+        width: 629px;
+    }
+    .sertificates .swiper {
+        width:629px;
+        height: 720px;
+      }
+      .sertificates .swiper-slide-active {
+        width: 629px !important;
+      }
+      .sertificates .swiper .swiper-initialized .swiper-horizontal .swiper-backface-hidden {
+        width: 629px !important;
+      }
+      /* ОКНО СВАЙПЕРА */
+      .sertificate-slide { 
+         /* ГОООООООООООЛ ? */
+        box-sizing: border-box;
+        padding-top: 10px;
+     width: 100%;
+     overflow: hidden;
+      /* ГОООООООООООЛ ? */
+      }
+    }
+@media(min-width: 1280px) {
+.sertificates {
+display: flex;
+justify-content: center;
+margin-left: auto;
+padding-top: 150px;
+justify-self: center;
+}
+.sertificates__background {
+display: flex;
+width:1160px;
+height: 430px;
+background-color: rgb(240, 213, 119);
+border-radius: 10px;
+padding: 26px 20px;
+justify-content: center;
+}
+
+.sertificates__inner {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    border: 2px white solid;
+    border-radius: 10px;
+    column-gap: 10%;
+}
+
+.first-sertificate {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    gap: 5px;
+    width: 350px;
+}
+.first-sertificate__image {
+    width: 231px;
+}
+.second-sertificate__image {
+    width: 231px;
+}
+.sertificates {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 12px;
+}
+.certificate {
+    color: rgb(159, 159, 159);
+}
+
+.certificate-name {
+    width: 200px;
+    text-align: center;
+}
+.second-sertificate {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    gap: 5px;
+    width: 300px
+}
+.swiper2 {
+    height:500px;
+}
+.sertificate-slide {
+    flex-shrink: 1 !important;
+    padding: 0 !important;
+    margin: 0!important;
+}
+.swiper-slide {
+    flex-shrink: 1 !important;
+    padding: 0 !important;
+    margin: 0!important;
+}
+.swiper-wrapper {
+display: flex;
+}
+.award__image  {
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 359px;
+    height: 438px;
+}
+}

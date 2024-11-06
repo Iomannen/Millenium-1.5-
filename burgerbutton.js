@@ -10,7 +10,6 @@ burgerOpener.addEventListener('click', function (evt) {
     contentBackground.classList.toggle('contentbackground');
     burgerOpener.classList.toggle('menu__sidemenu-button');
     burgerOpener.classList.toggle('menu__sidemenu-button--active');
-   
 });
 let exitButton = document.querySelector('.exitbutton');
 exitButton.addEventListener('click', function(ada) {
@@ -20,6 +19,5 @@ exitButton.addEventListener('click', function(ada) {
     contentBackground.classList.toggle('contentbackground');
     burgerOpener.classList.toggle('menu__sidemenu-button');
     burgerOpener.classList.toggle('menu__sidemenu-button--active');
-    
 });
 

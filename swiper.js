@@ -1,4 +1,8 @@
-const swiper = new Swiper('.swiper', {
+let mql = window.matchMedia('(max-width: 767px)');
+
+window.addEventListener('DOMContentLoaded', () => {
+  if (mql.matches) {
+let swiper = new Swiper('.swiper', {
     loop: true,
   
     // If we need pagination
@@ -18,3 +22,7 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-scrollbar',
   },
   });
+} else {
+  swiper.destroy(deleteInstance, cleanStyles)
+}
+})

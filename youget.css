@@ -132,5 +132,7 @@ width: 530px;
     padding-left: 15px;
     gap: 8px;
 }
-
+.youget__header {
+    font-size: 36px;
+}
 }

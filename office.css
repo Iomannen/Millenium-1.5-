@@ -1,0 +1,47 @@
+.office {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+.office-image {
+    width: 612px;
+    height: 251px;
+}
+@media(min-width: 612px) {
+    .office-image {
+        width: 769px;
+        height: 316px;
+    }
+}
+@media(min-width: 768px) {
+    .office-image {
+        width: 1120px;
+        height: 459px;
+    }
+}
+@media(min-width: 1120px) {
+    .office-image {
+        width: 1280px;
+        height: 525px;
+    }
+}
+@media(min-width: 1280px) {
+    .office-image {
+        width: 1440px;
+        height: 590px;
+    }
+}
+@media(min-width: 1440px) {
+    .office-image {
+        width: 1920px;
+        height: 787px;
+    }
+}
+@media(min-width: 1920px) {
+    .office-image {
+        width: 100%;
+    }
+}

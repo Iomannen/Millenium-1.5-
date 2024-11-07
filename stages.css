@@ -1,3 +1,6 @@
+.stages {
+    height: 3400px;
+}
 .stages p {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -9,7 +12,7 @@
     font-weight: 800;
     padding-bottom: 30px;
     padding-left: 15px;
-    padding-top: 70px;
+    
 }
 .stages__list {
     display: flex;
@@ -92,6 +95,9 @@ width: 313px;
 height: 1px;
 }
 @media(min-width: 768px) {
+    .stages {
+        height: 5200px;
+    }
     .stages-card {
         width:668px;
         padding-bottom: 50px;
@@ -157,7 +163,10 @@ padding-bottom: 25px;
         font-size: 24px;
     }
 }
-@media(min-width: 1280px) {
+@media(min-width: 5500px) {
+    .stages {
+        height: 5200px;
+    }
     .stages-card {
         width:1168px;
         padding-bottom: 50px;

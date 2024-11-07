@@ -2,11 +2,13 @@
     padding-top: 50px;
     display: flex;
     justify-content: center;
-    position: absolute;
     width: 100%;
+    position: absolute;
     overflow: hidden;
 }
 .office-image {
+
+    z-index: 1000;
     width: 612px;
     height: 251px;
 }

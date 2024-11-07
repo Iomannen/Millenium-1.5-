@@ -72,7 +72,7 @@ padding-top: 9px;
     /* ЗАГОЛОВОК КАРТОЧЕК */
    
     .cards {
-       padding-top: 10%;
+       height:600px;
        display: flex;
        flex-direction: column;
        align-items: center;
@@ -173,9 +173,10 @@ display: none;
   /* ЗАГОЛОВОК КАРТОЧЕК */
  
   .cards {
-     padding-top: 10%;
+     
      display: flex;
      flex-direction: column;
+      justify-content: end;
      align-items: center;
      
   }
@@ -268,7 +269,6 @@ margin-right: auto;
 /* ЗАГОЛОВОК КАРТОЧЕК */
 
 .cards {
-   padding-top: 10%;
    display: flex;
    flex-direction: column;
    align-items: center;

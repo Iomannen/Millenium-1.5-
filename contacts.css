@@ -1,3 +1,4 @@
+
 input {
 flex-shrink: 0;
 background-color: transparent;
@@ -6,11 +7,8 @@ font-size: inherit;
 }
 .contacts {
     padding-top: 40px;
-    
     padding-bottom: 155px;
-    margin-top: 450px;
     width:340px;
-    
     border-radius: 20px;
     background-color: rgb(244, 248, 255);
     display: flex;
@@ -105,31 +103,30 @@ input[type=tel] {
 color: white;
 }
 .square {
-    overflow: hidden;
 position: absolute;
 top: -65px;
 width: 119px;
 }
 .palka {
-    overflow: hidden;
+   
     position: absolute;
     width: 103px;
-    right: -30px;
+    right: -0px;
     top: -40px;
 }
 .hand {
-    overflow: hidden;
+    
     width: 221px;
     position: absolute;
     bottom: 20px;
     right: 35%;
 }
 .cube {
-    overflow: hidden;
+    
     width: 91px;
     position: absolute;
     bottom: 100px;
-    right: -20px;
+    right: 10px;
 }
 .image-wrapper {
     overflow: hidden;
@@ -138,7 +135,6 @@ width: 119px;
     .contacts {
         padding-top: 40px;
         padding-bottom: 195px; 
-        margin-top: 600px;
         width:748px;
         max-width: 800px;
     }
@@ -189,16 +185,11 @@ width: 119px;
         right: 15px;
     }   
 }
-@media(min-width: 1120px) {
-    .contacts {
-        margin-top: 650px;
-}
-}
+
 @media(min-width: 1280px) {
 .contacts {
     padding-top: 40px;
     padding-bottom: 155px;
-    margin-top: 700px;
     width:1160px;
     max-width: 1160px;
     display: flex;
@@ -269,9 +260,4 @@ width: 146px;
     bottom: -70px;
     right: 5px;
 }  
-}
-@media(min-width: 1440px) {
-    .contacts {
-        margin-top: 950px;
-    }
 }

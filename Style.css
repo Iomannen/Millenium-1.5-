@@ -127,6 +127,10 @@ width: 100%;
    display: grid;
    gap: 21px;
  }
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
  /* Задаем параметры общие для всего документа */
   header {
    padding: 10px;

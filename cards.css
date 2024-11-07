@@ -72,11 +72,11 @@ padding-top: 9px;
     /* ЗАГОЛОВОК КАРТОЧЕК */
    
     .cards {
-       height:600px;
+       padding-top: 10%;
        display: flex;
        flex-direction: column;
        align-items: center;
-       
+       padding-bottom: 50px;
     }
    
     /* Тут  мы выравниваем по центру карточки и задаем отступ сверху от 1.2 макета */
@@ -173,10 +173,9 @@ display: none;
   /* ЗАГОЛОВОК КАРТОЧЕК */
  
   .cards {
-     
+     padding-top: 10%;
      display: flex;
      flex-direction: column;
-      justify-content: end;
      align-items: center;
      
   }
@@ -269,6 +268,7 @@ margin-right: auto;
 /* ЗАГОЛОВОК КАРТОЧЕК */
 
 .cards {
+   padding-top: 10%;
    display: flex;
    flex-direction: column;
    align-items: center;

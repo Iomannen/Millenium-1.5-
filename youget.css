@@ -39,7 +39,6 @@
     "button button";
     overflow: hidden;
     justify-content: center;
-    padding-top: 150px;
   }
   .youget__header {
     grid-area: header;
@@ -98,7 +97,6 @@ width: 530px;
     overflow: hidden;
     column-gap: 3%;
     justify-content: center;
-    padding-top: 150px;
   }
   .youget__header {
     grid-area: header;

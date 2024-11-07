@@ -1,3 +1,8 @@
+main {
+display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -235,7 +240,11 @@ width: 100%;
  /* Позиционирование картинотьки !!! */
  /* Все дальше min-width !!! */
  @media(min-width: 768px) {
- 
+ main {
+display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
    header {
      padding-right: 32px;
      padding-left: 41px;
@@ -461,6 +470,11 @@ width: 100%;
  
  /* Позиция десктоп */
  @media(min-width: 1280px) {
+   main {
+display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
      .burgermenu-open {
     display: none;
      }

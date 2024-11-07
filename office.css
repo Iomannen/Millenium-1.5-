@@ -2,12 +2,12 @@
     padding-top: 50px;
     display: flex;
     justify-content: center;
-    width: 100%;
+    width:100%;
+    min-width: 370px;
     position: absolute;
     overflow: hidden;
 }
 .office-image {
-
     z-index: 1000;
     width: 612px;
     height: 251px;
@@ -19,6 +19,9 @@
     }
 }
 @media(min-width: 768px) {
+    .office {
+        min-width: 850px;
+    }
     .office-image {
         width: 1120px;
         height: 459px;

@@ -1,5 +1,5 @@
 .stages {
-    height: 3400px;
+    height: 3700px;
 }
 .stages p {
     margin-top: 1em;
@@ -94,9 +94,14 @@ background-image: url("images/stages__underline.svg");
 width: 313px;
 height: 1px;
 }
+@media(min-width: 612px) {
+    .stages {
+        height: 3800px;
+    }
+    }
 @media(min-width: 768px) {
     .stages {
-        height: 5200px;
+        height: 5600px;
     }
     .stages-card {
         width:668px;
@@ -163,9 +168,9 @@ padding-bottom: 25px;
         font-size: 24px;
     }
 }
-@media(min-width: 5500px) {
+@media(min-width: 1280px) {
     .stages {
-        height: 5200px;
+        height: 6200px;
     }
     .stages-card {
         width:1168px;
@@ -220,4 +225,9 @@ padding-bottom: 25px;
             .stages__list {
                 gap: 55px;
             }
+}
+@media(min-width: 1440px) {
+    .stages {
+        height: 6400px;
+    }
 }

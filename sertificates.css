@@ -1,5 +1,4 @@
 .sertificates {
-    padding-top: 150px;
     justify-self: center;
     width: 100%;
     }
@@ -92,7 +91,6 @@
 
 @media(min-width: 470px) {
 .sertificates {
-padding-top: 150px;
 justify-self: center;
 width: 100%;
 }
@@ -185,7 +183,6 @@ justify-content: center;
 
 @media(min-width: 768px) {
 .sertificates {
-padding-top: 150px;
 justify-self: center;
 width: 100%;
 }
@@ -278,7 +275,6 @@ justify-content: center;
 display: flex;
 justify-content: center;
 margin-left: auto;
-padding-top: 150px;
 justify-self: center;
 }
 .sertificates__background {

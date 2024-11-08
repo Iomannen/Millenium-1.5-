@@ -9,4 +9,3 @@ exitButton.addEventListener('click', function(ada) {
     ada.preventDefault();
     overflowHidden.classList.toggle('hidden');
 });
-

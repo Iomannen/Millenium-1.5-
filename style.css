@@ -540,7 +540,7 @@ width: 100%;
    grid-template-rows: 121px 156px 80px 77px;
    max-width:1200px;
    margin: 0 auto;
-   
+   padding-left: 60px;
   
  }
  /* Десктопные вертикальные отступы */

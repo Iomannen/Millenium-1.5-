@@ -20,4 +20,14 @@ exitButton.addEventListener('click', function(ada) {
     burgerOpener.classList.toggle('menu__sidemenu-button');
     burgerOpener.classList.toggle('menu__sidemenu-button--active');
 });
+let menuPuncts = document.querySelectorAll('.burger-menu__items');
+menuPuncts.addEventListener('click', function(gad) {
+    gad.preventDefault();
+    overflowHidden.classList.remove('hidden');
+    burgerMenu.classList.remove('burgermenu-open');
+    contentBackground.classList.remove('contentbackground');
+    burgerOpener.classList.remove('menu__sidemenu-button');
+    burgerOpener.classList.remove('menu__sidemenu-button--active');
+    
+});
 

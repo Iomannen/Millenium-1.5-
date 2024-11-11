@@ -12,6 +12,7 @@
     background-color: transparent;
     cursor: pointer;
   }
+
  /* Сверху сброс стилей*/
  
 
@@ -461,6 +462,9 @@ width: 100%;
  
  /* Позиция десктоп */
  @media(min-width: 1280px) {
+  .burger-menu {
+    display: none;
+  }
      .burgermenu-open {
     display: none;
      }
@@ -476,8 +480,11 @@ width: 100%;
 
   
  
-   .call-button:hover, .content__price:hover {
+  button:hover{
  transform: scale(1.02);
+   }
+  .menu__item:hover {
+    transform: scale(1.08);
    }
  
    
@@ -584,7 +591,3 @@ width: 100%;
      }
  
   }
-  .hidden {
-    overflow: hidden !important;
-  }
-  /* Фиксация при открытии меню */

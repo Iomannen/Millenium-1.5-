@@ -14,4 +14,4 @@ consultationExit.addEventListener('click', function() {
     overflowHidden.classList.toggle('hidden');
 
 
-})
+});
